@@ -2,12 +2,31 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: 'Oswald';
+    src: url("http://fonts.googleapis.com/css?family=Oswald");
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url("http://fonts.googleapis.com/css?family=Roboto");
+}
+@font-face{
+    font-family: 'IBM Plex Mono';
+    src: url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap");
+}
+@font-face{
+    font-family: 'Lato';
+    src: url("http://fonts.googleapis.com/css?family=Lato");
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url("http://fonts.googleapis.com/css?family=Montserrat");
+}
 #navigation ul li{
     display: inline-block;
     margin: 0;
     padding: 0 8px;
     box-sizing: border-box;
-    /*background-color: hsl(0, 0%, 83%);*/
     background-color: #606060;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
